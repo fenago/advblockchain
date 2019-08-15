@@ -1,4 +1,6 @@
 const SHA256 = require('crypto-js/sha256')
+/* In REPL.it - make sure to select packages and pull in crypto-js 
+This will create package.json in the same directory*/
 
 class Block {
   /* In this exercise - create a class called Block and a constructor
