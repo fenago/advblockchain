@@ -1,4 +1,4 @@
-const SHA256 = require('../node_modules/crypto-js/sha256')
+const SHA256 = require('crypto-js/sha256')
 
 class Tx {
   constructor (fromAddr, toAddr, amount) {
